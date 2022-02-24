@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Page</title>
+    <link rel="stylesheets" href="/styles.css">
+<script>
+    var countDownTimer;
+    const maxTime = 5 * 60 * 1000;
+    funtion setCountdownTime() {
+        countDownTimer = maxTime;
+    }
+//When the person clicks the begin button the timer starts
+// start time
+let timerInteral = setInterval(updateTimer, 1000);
+
+function updateTimer() {
+    countDownTimer = countDownTimer -1;
+}
+
+//questionsare asked
+function SetupQuestions() {
+    let question1 ={
+        id: "quest0",
+             question: "To select elements"
+        
+    }
+}
+//if question is correct next question
+//if question is incorrect time penalty
+//if answer is correct show points and then go to the next question
+//Once all questions have options 
+
+</script>
+</head>
+
+
+
+<body>
+    <div class="welcome">
+        <span style="text-align:left">Time Remaining:</span>
+        <span style="text-align:right">Score:</span>
+    </div>
+
+
+    <div>
+        <p>Question: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    </div>
+</body>
+
+</html>
